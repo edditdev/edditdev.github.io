@@ -40,7 +40,7 @@
 </head>
 <body>
   <video autoplay loop muted>
-    <source src="sciezka/do/twojego/pliku.mp4" type="video/mp4">
+    <source src="yalla.mp4" type="video/mp4">
     Przeglądarka nie obsługuje odtwarzania wideo.
   </video>
 </body>
