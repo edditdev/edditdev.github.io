@@ -17,20 +17,20 @@
 
   video {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 2;
+    left: 2;
+    width: 120%;
+    height: 120%;
   }
 
   .text {
     position: absolute;
     color: white;
     font-size: 2rem;
-    animation: shake 0.5s infinite;
+    animation: pulse 0.5s infinite;
   }
 
-  @keyframes shake {
+  @keyframes pulse {
     0%, 100% {
       transform: translateX(0);
     }
