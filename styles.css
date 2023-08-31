@@ -1,32 +1,68 @@
-body {
+/* Resetowanie styli */
+body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
+}
+
+body {
     font-family: Arial, sans-serif;
-    background: #111; /* Kolor tła */
-    color: #fff; /* Kolor tekstu */
+    background-color: #f8f8f8;
+    color: #333;
 }
 
-header {
-    background: url('background-animation.gif'); /* Animowane tło */
-    background-size: cover;
-    height: 100vh;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+}
+
+nav h1 {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
     display: flex;
-    align-items: center;
 }
 
-.header-content {
-    margin-left: 5%;
+nav ul li {
+    margin-right: 1.5rem;
 }
 
-h1 {
-    font-size: 3rem;
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    background-image: url('background.jpg'); /* Dodaj własne tło */
+    background-size: cover;
+    color: #fff;
+    padding: 6rem 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 
-p {
-    font-size: 1.5rem;
+.section {
+    padding: 4rem 0;
 }
 
-/* Dodatkowe style dla sekcji głównej, projektów, itp. */
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
 
-/* Dodać style dla animowanych octagonów, np. z wykorzystaniem CSS keyframes */
+.section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
