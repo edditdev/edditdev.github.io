@@ -16,7 +16,7 @@
   }
 
   .text {
-    animation: pulse 1.5s infinite;
+    animation: pulse 2.5s infinite;
   }
 
   @keyframes pulse {
