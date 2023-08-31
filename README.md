@@ -12,6 +12,7 @@
     justify-content: center;
     height: 100vh;
     overflow: hidden;
+    font-family: "Helvetica Neue", sans-serif;
   }
 
   video {
@@ -20,7 +21,12 @@
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+  }
+
+  .text {
+    position: absolute;
+    color: white;
+    font-size: 2rem;
     animation: shake 0.5s infinite;
   }
 
@@ -36,12 +42,13 @@
     }
   }
 </style>
-<title>Video z Animacją Shake</title>
+<title>Video z Tekstem i Animacją Shake</title>
 </head>
 <body>
   <video autoplay loop muted>
     <source src="yalla.mp4" type="video/mp4">
     Przeglądarka nie obsługuje odtwarzania wideo.
   </video>
+  <div class="text">eddit dev page</div>
 </body>
 </html>
