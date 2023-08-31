@@ -22,19 +22,19 @@
 
   @keyframes pulse {
     0% {
-      transform: scale(1);
+      transform: scale(2);
     }
     50% {
-      transform: scale(1.05);
+      transform: scale(2.05);
     }
     100% {
-      transform: scale(1);
+      transform: scale(3);
     }
   }
 </style>
-<title>Strona z Animacją Pulse</title>
+<title>eddit</title>
 </head>
 <body>
-  <div class="text"><soon> visit flexxcheats.sell.app now.</div>
+  <div class="text">soon visit flexxcheats.sell.app now.</div>
 </body>
 </html>
