@@ -11,44 +11,30 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    overflow: hidden;
-    font-family: "Helvetica Neue", sans-serif;
-  }
-
-  video {
-    position: absolute;
-    top: 2;
-    left: 2;
-    width: 120%;
-    height: 120%;
+    background-color: rgb(23, 23, 23);
+    font-family: "Consolas", monospace;
+    color: green;
   }
 
   .text {
-    position: absolute;
-    color: white;
-    font-size: 2rem;
-    animation: pulse 0.5s infinite;
+    animation: pulse 1.5s infinite;
   }
 
   @keyframes pulse {
-    0%, 100% {
-      transform: translateX(0);
+    0% {
+      transform: scale(1);
     }
-    10%, 30%, 50%, 70%, 90% {
-      transform: translateX(-10px);
+    50% {
+      transform: scale(1.05);
     }
-    20%, 40%, 60%, 80% {
-      transform: translateX(10px);
+    100% {
+      transform: scale(1);
     }
   }
 </style>
-<title>Video z Tekstem i Animacją Shake</title>
+<title>Strona z Animacją Pulse</title>
 </head>
 <body>
-  <video autoplay loop muted>
-    <source src="yalla.mp4" type="video/mp4">
-    Przeglądarka nie obsługuje odtwarzania wideo.
-  </video>
-  <div class="text">eddit dev page</div>
+  <div class="text"><soon> visit flexxcheats.sell.app now.</div>
 </body>
 </html>
