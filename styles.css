@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #111; /* Kolor tła */
+    color: #fff; /* Kolor tekstu */
+}
+
+header {
+    background: url('background-animation.gif'); /* Animowane tło */
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.header-content {
+    margin-left: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+/* Dodatkowe style dla sekcji głównej, projektów, itp. */
+
+/* Dodać style dla animowanych octagonów, np. z wykorzystaniem CSS keyframes */
