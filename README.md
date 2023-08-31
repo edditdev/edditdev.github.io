@@ -11,8 +11,16 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url('sciezka/do/twojego/obrazu.jpg');
-    background-size: cover;
+    overflow: hidden;
+  }
+
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     animation: shake 0.5s infinite;
   }
 
@@ -28,8 +36,12 @@
     }
   }
 </style>
-<title>Rozciągnięty Obraz z Animacją Shake</title>
+<title>Video z Animacją Shake</title>
 </head>
 <body>
+  <video autoplay loop muted>
+    <source src="sciezka/do/twojego/pliku.mp4" type="video/mp4">
+    Przeglądarka nie obsługuje odtwarzania wideo.
+  </video>
 </body>
 </html>
